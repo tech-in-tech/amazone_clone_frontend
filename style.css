@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nev-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: rgb(255, 255, 255);
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:  url(logo\ \(2\).png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    color: aliceblue;
+}
