@@ -3,7 +3,8 @@
     font-family: Arial;
     border: border-box;
 }
-.nev-bar{
+
+.nev-bar {
     height: 60px;
     background-color: #0f1111;
     color: rgb(255, 255, 255);
@@ -11,36 +12,44 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.nav-logo{
+
+.nav-logo {
     height: 50px;
     width: 100px;
 }
-.nav-icon{
+
+.nav-icon {
     display: flex;
 }
-.logo{
-    background-image:  url(logo\ \(2\).png);
+
+.logo {
+    background-image: url(logo\ \(2\).png);
     background-size: cover;
     height: 50px;
     width: 100px;
     color: aliceblue;
 }
-.border{
+
+.border {
     border: 1.5px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid white;
 }
-.add-first-p{
+
+.add-first-p {
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
 }
-.add-second-p{
+
+.add-second-p {
     font-size: 1rem;
     margin-left: 3px;
 }
-.nav-search{
+
+.nav-search {
     display: flex;
     width: 620px;
     background-color: aqua;
@@ -49,7 +58,7 @@
     justify-content: space-evenly;
 }
 
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -58,13 +67,13 @@
     border: none;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.serch-icon{
+.serch-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -77,20 +86,75 @@
 
 }
 
-span{
+span {
     font-size: 0.7rem;
 }
-.nav-second{
+
+.nav-second {
     font-size: 0.85;
     font-weight: 700;
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 2px solid orange;
 }
-.navcart i{
+
+.navcart i {
     font-size: 30px;
 }
-.navcart{
+
+.navcart {
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p {
+    display: inline;
+    margin-left: 17px;
+    font-weight: 500;
+}
+
+.panel-opt {
+    width: 70%;
+    font-size: 0.85rem
+    
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-mess{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 30px;
+    font-weight: 700;
+    
+}
+.hero-mess a{
+    color: #007185;
 }
